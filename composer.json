@@ -1,0 +1,26 @@
+{
+  "name": "gorilla/mage-1-9-1-x",
+  "description": "Magento CE 1.9.1.x",
+  "type": "magento-core",
+  "authors": [
+    {
+      "name": "Magento Enterprise Team"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "slayerbirden/diff_generator": "~1"
+  },
+  "suggest": {
+    "magento-hackathon/magento-composer-installer": "for installing Magento modules and core packages (need dev-change_core_installer branch)",
+    "gorilla/jsminificationfix": "*",
+    "gorilla/mutex": "to neatly handle mutexes",
+    "gorilla/paypalbn": "*",
+    "gorilla/sso": "for single sign on into admin panel"
+  },
+  "extra": {
+    "map": []
+  }
+}
