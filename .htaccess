@@ -1,3 +1,8 @@
+Authtype Basic
+AuthName "LibroBro Maintenance Auth"
+AuthUserFile /home/gollias/www/.htpasswd
+Require valid-user
+
 ############################################
 ## uncomment these lines for CGI mode
 ## make sure to specify the correct cgi php binary file name
